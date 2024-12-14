@@ -3,9 +3,13 @@ The multiple versions node tool
 
 # configuration 
 git clone https://github.com/ericli2086/nodeenv.git
+
 chmod +x nodeenv.sh
+
 ln -s nodeenv.sh /usr/local/bin/nodeenv
+
 nodeenv setup >> ~/.bashrc
+
 source ~/.bashrc
 
 # install the pointed version 
